@@ -1,0 +1,93 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}Тренеры{% endblock %}
+
+{% block content %}
+
+    <section class="instructors">
+        <div class="container">
+
+            <p class="mb-3">Мы гордимся нашей командой, состоящей из профессиональных инструкторов, которые помогут вам
+                разработать индивидуальную программу тренировок и диеты, а также дадут полезные советы по правильному
+                образу жизни.</p>
+
+            <p class="mb-5">Наша команда тренеров готова помочь вам на каждом этапе вашего пути к здоровью и отличной
+                форме!</p>
+
+            <h2 class="mb-4"><strong>Наши тренеры</strong></h2>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-thumb">
+                        <img src="{% static 'images/team/team-image.jpg' %}" class="img-fluid" alt="Trainer">
+
+                        <div class="team-info d-flex flex-column">
+                            <h3>Мария</h3>
+                            <span>Тренер по йоге</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-thumb">
+                        <img src="{% static 'images/team/team-image01.jpg' %}" class="img-fluid" alt="Trainer">
+
+                        <div class="team-info d-flex flex-column">
+                            <h3>Екатерина</h3>
+                            <span>Тренер всего тела</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-thumb">
+                        <img src="{% static 'images/team/team-image02.jpg' %}" class="img-fluid" alt="Trainer">
+
+                        <div class="team-info d-flex flex-column">
+                            <h3>Алексей</h3>
+                            <span>Тренер по аэробике</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-thumb">
+                        <img src="{% static 'images/team/team-image03.jpg' %}" class="img-fluid" alt="Trainer">
+
+                        <div class="team-info d-flex flex-column">
+                            <h3>Михаил</h3>
+                            <span>Тренер по бодибилдингу</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-thumb">
+                        <img src="{% static 'images/team/team-image04.jpg' %}" class="img-fluid" alt="Trainer">
+
+                        <div class="team-info d-flex flex-column">
+                            <h3>Андрей</h3>
+                            <span>Тренер по боксу</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-thumb">
+                        <img src="{% static 'images/team/team-image05.jpg' %}" class="img-fluid" alt="Trainer">
+
+                        <div class="team-info d-flex flex-column">
+                            <h3>Артем</h3>
+                            <span>Тренер по всему телу</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+{% endblock %}
